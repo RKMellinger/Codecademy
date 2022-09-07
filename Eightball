@@ -1,0 +1,40 @@
+let userName = ""
+if (userName != ""){
+  console.log(`Hello ${userName}!`)
+} else{
+  console.log(`Greetings Program`)
+}
+let userQuestion = `Please enter your question..`
+console.log(userQuestion)
+let randomNumber = Math.floor(Math.random() * 8);
+console.log(randomNumber)
+let eightBall = ""
+
+switch (randomNumber){
+case randomNumber = 0 :
+eightBall = 'It is certain'
+break
+case randomNumber = 1:
+ eightBall = 'It is decidedly so'
+break
+ case (randomNumber = 2):
+ eightBall = 'Signs point to yes'
+break
+ case (randomNumber = 3):
+  eightBall = 'Outlook not so good'
+break
+ case (randomNumber = 4):
+ eightBall = 'My sources say no'
+break
+ case (randomNumber = 5):
+ eightBall = 'It is decidedly so'
+break
+ case (randomNumber = 6):
+ eightBall = 'Cannot predict now'
+default:
+ eightBall = 'Reply hazy try again'
+ break
+}
+
+console.log(eightBall)
+
